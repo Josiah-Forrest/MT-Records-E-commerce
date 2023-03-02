@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<title>About - MT Records</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Comic+Neue&family=Pacifico&family=Vibur&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="aboutpage">
+    <div class="header">
+    <div class="container">
+		<div class="navbar">
+	<div class="logo">
+		<a href="index.html"><img src="images/Screenshot%202023-01-30%20at%2010.48.10%20PM.png" width="125px"></a>
+	</div>
+	<nav>
+		<ul id="MenuItems">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="products.html">Products</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Account</a></li>
+		</ul>
+	</nav>
+       
+    <img src="images/images/menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+	</div>
+        
+<div class="row">
+ 		<div class="col-2">
+            <div class="aboutmetag">
+            <img src="images/logo.jpg" width="350px">
+ 			<h1>MT Records</h1>
+ 			<h2>Mission Statement: To strive to support and mentor aspiring musicians in ways that will bring their goals and aspirations to reality.</h2>
+            <p class="aboutmetag">MT Records is a social media app that is strictly for musicians. It will help the musicians with their music and it will allow them to post their music on this website and get constructive advice about their music and about their struggles with their music. It’s a good place to vent and build a good support system. It is different from Instagram because Instagram is strictly for posting videos and clips and isn't specifically for musicians and artists. It isn't like BandLab because Bandlab is for posting and making music and collaborations but does give anyone a chance in the actual music industry and doesn't give an artist any real world experience. My app will let them get constructive criticism and help them get endorsements and opportunities and experience from the music industry. It’s like a miniature record label that will take the in kids who don’t get the chance to prove themselves in the music industry; along with artists who aren't allowed a second chance. MT Records plans to be the best service among all competition in this category.</p>
+            <a href="products.html" class="btn">See Products &#8594;</a>
+ 		</div>
+ 			
+        
+ 	</div>
+        </div>
+        </div>
+    
+       <!----------- footer ------------>
+        <div class="footer">
+        <div class="container">
+            <div class="row">
+               <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                   <p>Download App for Android and ios mobile phone.</p>
+                   <div class="app-logo">
+                   <img src="images/images/play-store.png">
+                    <img src="images/images/app-store.png">
+                   </div>
+                </div> 
+                <div class="footer-col-2">
+                 <img src="images/logo.jpg" width="125px">
+                   <p> Mission Statement: To strive to support and mentor aspiring musicians in ways that will bring their goals and aspirations to reality.</p>
+                </div> 
+                <div class="footer-col-3">
+               <h3>Useful Links</h3>
+                   <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+               <h3>Follow Us</h3>
+                   <ul>
+                    <li>Facebook</li>
+                    <li><a href="https://twitter.com/MT_Recording"Target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/mt_recording/"Target="_blank">Instagram</a></li>
+                    <li>YouTube</li>
+                    </ul>
+            </div> 
+        </div>
+        <hr>
+        <p class="copyright">Copyright  2023 - MT Recording</p>
+    </div>
+</div>   
+    <!-----------js for toggle menu------------>
+    <script>
+    var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+           
+           if (MenuItems.style.maxHeight = "0px") {
+               MenuItems.style.maxHeight = "200px";
+           } else {
+              MenuItems.style.maxHeight = "0px"; 
+           }
+                  
+       
+               }
+    </script>
+   
+    
+    
+<!-----------js for product gallery------------>
+    <script>
+    var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+        
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function()
+        {
+            ProductImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function()
+        {
+            ProductImg.src = SmallImg[3].src;
+        }
+        SmallImg[4].onclick = function()
+        {
+            ProductImg.src = SmallImg[4].src;
+        }
+        SmallImg[5].onclick = function()
+        {
+            ProductImg.src = SmallImg[5].src;
+        }
+         SmallImg[6].onclick = function()
+        {
+            ProductImg.src = SmallImg[6].src;
+        }
+          SmallImg[7].onclick = function()
+        {
+            ProductImg.src = SmallImg[7].src;
+        }
+        
+    </script>
+    
+        </div>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<title>All Products - MT Records</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Comic+Neue&family=Pacifico&family=Vibur&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+		<div class="navbar">
+	<div class="logo">
+		<a href="index.html"><img src="images/Screenshot%202023-01-30%20at%2010.48.10%20PM.png" width="125px"></a>
+	</div>
+	<nav>
+		<ul id="MenuItems">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="products.html">Products</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Account</a></li>
+		</ul>
+	</nav>
+    <a href="cart.html"><img src="images/images/cart.png" width="30px" height="30px"></a>
+    <img src="images/images/menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+	</div>
+
+<div class="carts">
+    <div class="small-container">
+        <table>
+          <tr>
+            <th>Contact Desription</th>
+            <th>Contact Information</th>
+         </tr> 
+            <tr>
+            <td>
+            <div class="cart-info">
+                <div>
+                    <p>Email</p>
+                </div>
+            </div>    
+
+            </td>
+        <td>josiah.forrest@hgs.hiddengeniusproject.org</td>
+            </tr>
+              <tr>
+            <td>
+            <div class="cart-info">
+                <div>
+                    <p>Phone Number</p>
+                </div>
+            </div>    
+            </td>
+             <td> <span title="(248)491-8369"><a href="tel:(248)491-8369"><button>Call Me!</button></a></span></td>
+            </tr>
+              <tr>
+            <td>
+            <div class="cart-info">
+                <div>
+                    <p>Alternative Email</p>
+                </div>
+            </div>    
+
+            </td>
+            <td><span title="mercurymayhem119@gmail.com"><a href="mailto:mercurymayhem119@gmail.com"><button>Email Me!</button></a></span></td> 
+            </tr>
+        </table>
+        
+    </div>
+    </div>
+    </div>
+        
+<!----------- footer ------------>
+        <div class="footer">
+        <div class="container">
+            <div class="row">
+               <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                   <p>Download App for Android and ios mobile phone.</p>
+                   <div class="app-logo">
+                   <img src="images/images/play-store.png">
+                    <img src="images/images/app-store.png">
+                   </div>
+                </div> 
+                <div class="footer-col-2">
+                 <img src="images/logo.jpg" width="125px">
+                   <p> Mission Statement: To strive to support and mentor aspiring musicians in ways that will bring their goals and aspirations to reality.</p>
+                </div> 
+                <div class="footer-col-3">
+               <h3>Useful Links</h3>
+                   <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+               <h3>Follow Us</h3>
+                   <ul>
+                    <li>Facebook</li>
+                    <li><a href="https://twitter.com/MT_Recording"Target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/mt_recording/"Target="_blank">Instagram</a></li>
+                    <li>YouTube</li>
+                    </ul>
+            </div> 
+        </div>
+        <hr>
+        <p class="copyright">Copyright  2023 - MT Recording</p>
+    </div>
+</div>   
+    <!-----------js for toggle menu------------>
+    <script>
+    var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+           
+           if (MenuItems.style.maxHeight = "0px") {
+               MenuItems.style.maxHeight = "200px";
+           } else {
+              MenuItems.style.maxHeight = "0px"; 
+           }
+                  
+       
+               }
+    </script>
+</body>
+</html>
